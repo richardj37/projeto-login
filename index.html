@@ -9,33 +9,39 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
-    <main>
-        <section id="login">
-            <div id="image">
-               
-            </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem vindo novamente. Faça login para continuar.</p>
-                <form action="login.php" method="post" autocomplete="on">
-                    <div class="campo">
-                        <span class="material-symbols-outlined">person</span>
-                        <input type="email" type="text" name="user" id="iuser" placeholder="usuário/e-mail" autocomplete="email" autocomplete="username" required>
-                        <label for="iuser">Login</label>
-                    </div>
-                    <div class="campo">
-                        <span class="material-symbols-outlined">key</span>
-                        <input type="password" name="sen" id="isen" placeholder="senha" autocomplete="current-password" required>
-                        <label for="isen">Senha</label>
-                    </div>
+<main>
+<section id="login">
+    <div id="image">
+             
+    </div>
+    <div id="formulario">
+        <h1>Login</h1>
+        <p>Seja bem vindo novamente. Faça login para continuar.</p>
 
-                        <input type="submit" value="Entrar">
+    <form action="login.php" method="post" autocomplete="on">
+
+        <div class="campo">
+
+            <span class="material-symbols-outlined">person</span>
+            <input type="email" type="text" name="user" id="iuser" placeholder="usuário/e-mail" autocomplete="email" autocomplete="username" required>
+            <label for="iuser">Login</label>
+
+        </div>
+        <div class="campo">
+
+        <span class="material-symbols-outlined">key</span>
+         <input type="password" name="sen" id="isen" placeholder="senha" autocomplete="current-password" required>
+        <label for="isen">Senha</label>
+
+    </div>
+
+        <input type="submit" value="Entrar">
                 
-                        <a href="#" class="botao">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
-                                                 
-                </form>
-            </div>
-        </section>
-    </main>
+        <a href="#" class="botao">Esqueci a senha <span class="material-symbols-outlined">mail</span></a>
+                                          
+    </form>
+    </div>
+</section>
+</main>
 </body>
 </html>
